@@ -62,14 +62,21 @@ console.log(monthlyRate)
 
 If your name is `Oscar` mortgageCalculator() should return "Oscar, your monthly rate is 1073.64"
 */
+const mortgageCalculator1 = () => {
 
-function mortgageCalculator() {
 
-    return  `${name}, your monthly rate is ${monthlyRate}.`
+    console.log(`${name}, your monthly rate is ${monthlyRate}.`)
+    // console.log(variable);
+    // return  `${name}, your monthly rate is ${monthlyRate}.`
+
+    
 
 }
 
-console.log(mortgageCalculator())
+mortgageCalculator1()
+
+
+
 
 
 
